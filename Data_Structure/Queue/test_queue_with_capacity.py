@@ -1,4 +1,4 @@
-from queue2 import Queue
+from queue import Queue
 
 q = Queue(3)
 assert(q.is_empty())
