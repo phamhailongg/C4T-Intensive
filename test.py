@@ -1,0 +1,21 @@
+mlist = [1023, 3, True, 6.5]
+mlist.append(False)
+print(mlist)
+mlist.insert(2, 4.5)
+print(mlist)
+print(mlist.pop())
+print(mlist)
+print(mlist.pop(1))
+print(mlist)
+mlist.pop(2)
+print(mlist)
+mlist.sort
+print(mlist)
+mlist.reverse()
+print(mlist)
+print(mlist.count(6.5))
+print(mlist.index(4.5))
+mlist.remove(6.5)
+print(mlist)
+del mlist[0]
+print(mlist)
